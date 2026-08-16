@@ -1,0 +1,6 @@
+# ローカル開発用のダミー値。`.dev.vars` にコピーして使う。
+# `.dev.vars` は .gitignore 済み。本物の値をこのファイルに書かないこと。
+HOOK_SECRET="local-development-secret"
+DISCORD_WEBHOOK_PRIMARY="https://example.invalid/webhook/primary"
+DISCORD_WEBHOOK_OPERATOR="https://example.invalid/webhook/operator"
+OPERATOR_NAME="運用者"
