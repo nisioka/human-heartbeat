@@ -1,0 +1,12 @@
+name = "human-heartbeat-notifier"
+main = "src/index.ts"
+compatibility_date = "2025-09-01"
+
+# 秘密でない設定のみここに置く。
+# HOOK_SECRET / DISCORD_WEBHOOK_PRIMARY / DISCORD_WEBHOOK_OPERATOR は
+# `wrangler secret put <NAME>` で投入する。リポジトリには絶対に書かない。
+[vars]
+OPERATOR_NAME = "運用者"
+
+[observability]
+enabled = true
